@@ -13,7 +13,7 @@ public class UserRegisterTest extends BaseTestCase {
     public void testCreateUserWithExistingEmail(){
         Map<String, String> userData = new HashMap<>();
         userData.put("email", "vinkotov@example.com");
-        userData.put("password", "123");
+        userData.put("password", "!!!!!!!123!!!!!!!");
         userData.put("username", "learnqa");
         userData.put("firstName", "learnqa");
         userData.put("lastName", "learnqa");
